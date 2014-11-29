@@ -52,3 +52,19 @@ This can decrease the css file size drastically, and should be done before produ
 
 /* Assets */
 @import "assets/icons"; // Load Foundation icon fonts
+
+.footer {
+    margin-top:rem-calc(20);
+    background-color: $jet;
+    width:100%;
+    min-height:rem-calc(150);
+    position:relative;
+    bottom:0;
+    font-size:0.7rem !important;
+    ul {
+        font-size:0.7rem !important;
+    }
+    h6 {
+        color:#000000 !important;
+    }
+}
