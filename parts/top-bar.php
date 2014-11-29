@@ -9,7 +9,6 @@
             <?php foundationPress_top_bar_l(); ?>
             <?php foundationPress_top_bar_r(); ?>
         </section>
-          <section class="middle top-bar-section">
                   <form id="searchform" action="http://klotz/wordpress/" method="get" role="search">
                     <div class="row collapse">
                       <div class="right small-3 columns">
@@ -19,8 +18,5 @@
 		      </div>
                     </div>
                   </form>
-		<?php do_action('foundationPress_searchform_after_search_button'); ?>
-                </section>
-
     </nav>
 </div>
