@@ -46,19 +46,8 @@
 		<section class="middle tab-bar-section">
 
 			<h1 class="title"><?php bloginfo( 'name' ); ?></h1>
-
 		</section>
-                <section class="right top-bar-section">
-                  <form id="searchform" action="http://klotz/wordpress/" method="get" role="search">
-                    <div class="row collapse">
-                      <div class="small-8 columns">
-                        <input id="s" type="text" placeholder="Suchen" name="s" value=""></input>
-                      </div>
-                      <div class="small-4 columns"></div>
-                    </div>
-                  </form>
-                </section>
-	</nav>
+      	</nav>
 
 	<?php get_template_part('parts/off-canvas-menu'); ?>
 
