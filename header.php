@@ -55,7 +55,7 @@
 
         <div class="row">
           <div class="column medium-9 header-pic text-center medium-centered">
-            <img src="<?php echo get_stylesheet_directory_uri();?>/img/head.png" alt="dev.pinetco.com header"/>
+            <a href="/"><img src="<?php echo get_stylesheet_directory_uri();?>/img/head.png" alt="dev.pinetco.com header"/></a>
           </div>
         </div>
 
